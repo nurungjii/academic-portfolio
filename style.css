@@ -1,0 +1,80 @@
+/* General body styling */
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Header styles */
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+img.profile {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+h1, h2 {
+  margin: 0.5rem 0;
+}
+
+/* Section styles */
+section {
+  margin-bottom: 2rem;
+}
+
+/* Publication list styles */
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li {
+  margin-bottom: 1rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  body {
+    padding: 1rem;
+  }
+}
+
+.separator {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 2rem 0;
+}
+
+/* Icon links styling */
+.icon-links {
+  margin: 1rem 0;
+}
+
+.icon-links a {
+  margin: 0 10px;
+  font-size: 1.5rem;
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.icon-links a:hover {
+  color: #555;
+}
+
+/* Publication note styling */
+.publication-note {
+  font-size: 0.8em;
+  color: #666;
+  margin-bottom: 1rem;
+}
