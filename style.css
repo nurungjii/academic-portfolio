@@ -78,3 +78,24 @@ li {
   color: #666;
   margin-bottom: 1rem;
 }
+
+.btn {
+  background-color: transparent;
+  border: 1px solid #555;
+  border-radius: 4px;
+  color: #555;
+  padding: 4px 12px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 8px;
+  margin-right: 5px;
+  font-family: inherit; /* Ensures it uses the "Lato" font */
+  font-weight: 300;     /* Matches your body font-weight */
+  font-size: 13px;
+  transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.btn:hover {
+  background-color: #555;
+  color: #fff; /* White text on hover for contrast */
+}
